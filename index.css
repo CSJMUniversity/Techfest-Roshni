@@ -1,0 +1,74 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b6bfd0;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #ffbb33, #ff0033);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  header .header-content h1 {
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  #countdown {
+    margin-top: 20px;
+  }
+  
+  #timer {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .content {
+    padding: 10px;
+    text-align: center;
+  }
+  .content h2{
+    color: white;
+    padding-bottom: 20px;
+  }
+  
+  .info-box {
+    background: #6b7ec1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    margin: 30px auto;
+    
+  }
+  
+  footer {
+    background-color: #858282;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .card h3{
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: 10 10 20 white;
+
+  }
+  
